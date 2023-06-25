@@ -1,0 +1,29 @@
+.third-section{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(166, 241, 216);
+    justify-content: center
+}
+.text{
+   padding-right: 20%;
+   text-align: justify;
+   max-width: 45%;
+   padding-top: 5%;
+   padding-left: 5em;
+}
+.l{
+    padding-top:1em;
+}
+.text a {
+    padding-top: 1em;
+    border-bottom: 1px solid black
+    
+}
+.third-section img {
+    border: 0.2em dotted grey;
+    max-width: 20%;
+}
+.centre{
+    text-align: center;
+}
+

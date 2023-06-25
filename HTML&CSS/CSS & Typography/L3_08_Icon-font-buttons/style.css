@@ -1,0 +1,15 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+.first{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 1px;
+}
+
+.second{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border-radius: 1px;
+ 
+}

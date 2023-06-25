@@ -1,0 +1,18 @@
+body,ul,li{
+    display: flex;
+}
+li{
+    padding: 15px 50px;
+    border: 5px solid black;
+    margin: 50px;
+    box-shadow: 2px -1px 15px 5px rgba(0,0,0,0.61);
+   
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    flex-direction: column;
+    justify-content: space-between;
+}

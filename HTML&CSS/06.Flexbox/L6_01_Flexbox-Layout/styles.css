@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+header,main,aside,footer{
+  padding: 50px;
+  border: 3px solid black;
+  box-shadow: 0px 0px 3px black;
+  margin: 20px;
+  border-radius: 6px;
+}
+main {
+  flex-grow: 1;
+  flex-basis: 60%;
+  margin-right: 30px;
+}
+header {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+aside {
+  flex-grow: 1;
+  flex-basis: 40%;
+  
+}
+footer {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+div{
+  display: flex;
+}
+main,aside{
+ min-height: 300px;
+}

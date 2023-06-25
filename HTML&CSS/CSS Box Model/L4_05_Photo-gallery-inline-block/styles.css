@@ -1,0 +1,14 @@
+.gallery{
+    display: inline-block;
+}
+ul.gallery{
+    display: inline-block;
+}
+li{
+    border-width: 0.4rem;
+    border: solid black;
+    display: inline-block;
+}
+img{
+    max-height: 300px;
+}

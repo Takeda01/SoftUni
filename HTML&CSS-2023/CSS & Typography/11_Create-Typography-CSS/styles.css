@@ -1,0 +1,31 @@
+html{
+    font-family:Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+table{
+    width: 100%;
+}
+blockquote{
+    border-left: 4px solid rgb(221,221,221) ;
+    padding: 30px;
+    
+}
+.author{
+padding-left: 80%;
+}
+table, th, td {
+    border: 1px solid rgb(221,221,221);
+    border-collapse: collapse;
+  }
+
+blockquote{
+    font-style: italic;
+}
+thead{
+    font-style: bold;
+    background-color:rgb(221,221,221); ;
+}

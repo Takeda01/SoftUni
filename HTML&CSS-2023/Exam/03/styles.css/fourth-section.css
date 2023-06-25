@@ -1,0 +1,67 @@
+.fourth-section{
+    margin-top: 3em;
+}
+.fourth-section>span{
+    padding: 0.5em;
+    background-color: rgb(166, 241, 216); 
+    border-radius: 20%;
+}
+.fourth-section h1{
+    font-size: 3em;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .plans{
+        display: flex;
+        text-align: justify;
+        max-width: 95%;
+    
+    }
+    .card{
+        flex: 0 0 30%;
+        margin-right:2em;
+       
+    }
+    .card a {
+        padding: 1em;
+        background-color: rgb(166, 241, 216); 
+        border-radius: 20%;
+        display: block;
+        width: 80%;
+    }
+    .card h1{
+        display: inline-block;
+    }
+    .b{
+        border-left: 2px solid rgb(223, 223, 223);
+         border-right: 2px solid rgb(223, 223, 223);
+         padding-left: 1em;
+         padding-right: 1em ;
+         
+    }
+    .aside{
+        padding-left: 2em;
+        margin-left: 3em;
+        text-align: justify;
+        background-color: rgb(166, 241, 216); 
+    }
+    .aside h1 {
+        font-size: 1em;
+    }
+    .aside a {
+        background-color: black;
+        color: white;
+        border-radius: 5%;
+        padding: 1em;
+        width: 80%;
+      margin-top: 10em;
+      text-align: center;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+
+    }

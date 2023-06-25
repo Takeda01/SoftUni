@@ -1,0 +1,19 @@
+.second{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 20%;
+    justify-content: space-between;
+     margin:4em;
+}
+.second div {
+    max-width: 25%;
+    font-size: 1.2em;
+   
+}
+.second h1 {
+    font-size: 2,5em;
+}
+.border{
+    border-left: 2px solid rgb(223, 223, 223);
+    border-right: 2px solid rgb(223, 223, 223);
+}

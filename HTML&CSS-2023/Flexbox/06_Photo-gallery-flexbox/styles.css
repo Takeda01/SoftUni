@@ -1,0 +1,15 @@
+body,ul,li{
+    display: flex;
+}
+
+ul{
+    justify-content: space-between;
+}
+li{
+    padding: 1em;
+    border: 4px solid black;
+}
+ul{
+    flex-wrap: wrap;
+    gap: 1em;
+}

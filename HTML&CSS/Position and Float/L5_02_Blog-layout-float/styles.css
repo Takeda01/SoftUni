@@ -1,0 +1,93 @@
+html{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Georgia, serif
+
+}
+
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(238, 238, 238) ;
+  font-family: Georgia, serif;
+}
+header{
+  margin-top: 30px;
+
+  
+}
+
+p.site-title {
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  display: inline-block;
+ 
+  
+}
+.image-wrapper{
+  border: 3px solid black;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(255, 255, 255) ;
+  box-shadow: -1px 5px 15px -2px rgba(0,0,0,0.25)
+}
+blockquote p{
+  color: grey;
+  font-style: italic;
+  margin-left: 30px;
+  
+}
+blockquote {
+border-left: 	solid grey 2px;
+padding: 20px;
+float: right;
+font-family: Georgia serif;
+}
+.float{
+  display: inline-block;
+  width: 45%;
+  vertical-align:  top;
+}
+.author{
+  text-align: right;
+}
+.art{
+  border-bottom: solid black 4px;
+}
+
+h1,h2,h3{
+  font-family: Georgia, serif ;
+  font-size: 1em;
+ 
+}
+
+
+aside{
+float: right;
+display: inline-block;
+width: 40%;
+position: relative;
+left: 250px;
+}
+.firstimg{
+  
+  display: inline-block;
+}
+.ar{
+  display: inline-block;
+  float: left;
+ 
+}
+ .ll .image-wrapper{
+float: right;
+}
+.ll{
+  display: inline-block;
+  float: right;
+}
+
+
+

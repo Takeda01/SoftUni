@@ -1,0 +1,25 @@
+.people{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  
+    
+}
+.people div {
+    display: inline-block;
+    padding-right: 3em;
+  
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+
+}
+.news div,h1{
+    align-self: center;
+  
+}

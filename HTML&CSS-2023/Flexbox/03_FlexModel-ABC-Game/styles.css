@@ -1,0 +1,53 @@
+html{
+    font-family:Helvetica, sans-serif;
+}
+span{
+    border: 1px solid black;
+    padding: 1.2rem;
+    margin: 0.3rem;
+   
+
+}
+.container{
+    max-width:  15vw;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.S{
+    order: 1;
+}
+.e{
+  order: 2;
+}
+.m{
+    order: 3;
+}
+.a{
+    order: 4;
+}
+.n{
+    order: 5 ;
+}
+.t{
+    order: 6;
+}
+.i{
+    order: 7;
+}
+.c{
+    order: 8;
+}
+.H{
+    order: 9;
+}
+.T{
+    order: 10;
+}
+.M{
+order: 11;
+}
+.L{
+    order: 12;
+}

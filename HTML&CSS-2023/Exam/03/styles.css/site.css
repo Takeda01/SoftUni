@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url(header.css);
+@import url(main.css);
+@import url(first-section.css);
+@import url(second-section.css);
+@import url(third-section.css);
+@import url(fourth-section.css);
+@import url(fifth-section.css);
+@import url(footer.css);
+html{
+font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0 auto;
+
+}
+a{
+    text-align: center;
+}
+

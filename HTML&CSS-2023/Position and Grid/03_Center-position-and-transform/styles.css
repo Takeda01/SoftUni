@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+.card{
+  background-color:  rgb(255, 255, 255) ;
+  max-width: 400px;
+  box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.75);
+  min-height: 450px;
+  display: flex;
+  
+}
+a{
+    padding: 0.6em;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    text-decoration: none;
+    align-self: end;
+    margin-right: 0.3em;
+
+  
+   
+}
+h3{
+    font-size: 1.2em;
+}
+.text{
+    display: flex;
+     padding-left: 0.8em ;
+     flex-direction: column;
+     align-self: flex-end;
+
+    
+}
+img{
+    max-width: 400px;
+    position: absolute;
+   
+
+}

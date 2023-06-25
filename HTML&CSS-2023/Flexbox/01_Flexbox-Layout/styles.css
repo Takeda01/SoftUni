@@ -1,0 +1,39 @@
+body{
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+header,main,aside,footer{
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+}
+header,footer{
+  flex-basis: 100%;
+}
+main{
+    flex: 8 1 40rem;
+}
+aside{
+ flex: 2 1 20rem;
+}
+header,main,aside,footer{
+    border: 1px solid black;
+    box-shadow: -2px -1px 16px -3px rgba(0,0,0,0.74);
+    margin: 1em;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+   padding: 10em;
+}
+main{
+padding: 14em;
+}
+header{
+    padding-bottom: 5em;
+}
