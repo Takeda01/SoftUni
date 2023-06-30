@@ -1,0 +1,3 @@
+<app-header></app-header>
+<app-list [Todos] = "TodoService.Todos" [input]="input" ></app-list>
+<app-editor (output)="Acceptor($event)"></app-editor>

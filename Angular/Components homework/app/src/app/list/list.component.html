@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let todo of Todos">
+<span #CurrentItem>{{todo.task}}</span>
+        <div class="tools">
+            <button class="complete"><i class="fas fa-check"></i></button>
+            <button (click)="Edit(CurrentItem)" class="edit">EDIT</button>
+            <button (click)="Delete(CurrentItem)" class="delete"><i class="fas fa-times"></i></button>
+        </div>
+    </li>
+</ul>
